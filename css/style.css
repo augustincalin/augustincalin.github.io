@@ -15,10 +15,10 @@ img {
 }
 
 #header {
+  display: flex;
+  flex-direction: row;
   flex: 0 0 100px;
   text-align: center;
   vertical-align: middle;
-}
-
-#body {
+  justify-content: space-around;
 }
